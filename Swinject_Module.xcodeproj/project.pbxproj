@@ -9,21 +9,29 @@
 /* Begin PBXBuildFile section */
 		8CC627B2282E7CC800B05BC7 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC627B1282E7CC800B05BC7 /* AppDelegate.swift */; };
 		8CC627B4282E7CC800B05BC7 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC627B3282E7CC800B05BC7 /* SceneDelegate.swift */; };
-		8CC627B6282E7CC800B05BC7 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC627B5282E7CC800B05BC7 /* ViewController.swift */; };
+		8CC627B6282E7CC800B05BC7 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC627B5282E7CC800B05BC7 /* FirstViewController.swift */; };
 		8CC627B9282E7CC800B05BC7 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC627B7282E7CC800B05BC7 /* Main.storyboard */; };
 		8CC627BB282E7CCA00B05BC7 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8CC627BA282E7CCA00B05BC7 /* Assets.xcassets */; };
 		8CC627BE282E7CCA00B05BC7 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8CC627BC282E7CCA00B05BC7 /* LaunchScreen.storyboard */; };
+		8CC627C6282EC4F300B05BC7 /* ColorProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC627C5282EC4F300B05BC7 /* ColorProvider.swift */; };
+		8CC627C8282EC53E00B05BC7 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8CC627C7282EC53E00B05BC7 /* SecondViewController.swift */; };
+		A6EA602FDD5A8FD26E549D0F /* Pods_Swinject_Module.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 055D79C9772FEFEC0F194CA6 /* Pods_Swinject_Module.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		055D79C9772FEFEC0F194CA6 /* Pods_Swinject_Module.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Swinject_Module.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		28FE4E715EB9B10AAE53BFAB /* Pods-Swinject_Module.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swinject_Module.debug.xcconfig"; path = "Target Support Files/Pods-Swinject_Module/Pods-Swinject_Module.debug.xcconfig"; sourceTree = "<group>"; };
 		8CC627AE282E7CC800B05BC7 /* Swinject_Module.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Swinject_Module.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8CC627B1282E7CC800B05BC7 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8CC627B3282E7CC800B05BC7 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8CC627B5282E7CC800B05BC7 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8CC627B5282E7CC800B05BC7 /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		8CC627B8282E7CC800B05BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8CC627BA282E7CCA00B05BC7 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8CC627BD282E7CCA00B05BC7 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8CC627BF282E7CCA00B05BC7 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8CC627C5282EC4F300B05BC7 /* ColorProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorProvider.swift; sourceTree = "<group>"; };
+		8CC627C7282EC53E00B05BC7 /* SecondViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
+		A11915D2291738D27AE7E3E9 /* Pods-Swinject_Module.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Swinject_Module.release.xcconfig"; path = "Target Support Files/Pods-Swinject_Module/Pods-Swinject_Module.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -31,17 +39,37 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				A6EA602FDD5A8FD26E549D0F /* Pods_Swinject_Module.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		60515CAF76809AA1A08F8A0D /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				28FE4E715EB9B10AAE53BFAB /* Pods-Swinject_Module.debug.xcconfig */,
+				A11915D2291738D27AE7E3E9 /* Pods-Swinject_Module.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		69223E837C918C885123B22E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				055D79C9772FEFEC0F194CA6 /* Pods_Swinject_Module.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 		8CC627A5282E7CC800B05BC7 = {
 			isa = PBXGroup;
 			children = (
 				8CC627B0282E7CC800B05BC7 /* Swinject_Module */,
 				8CC627AF282E7CC800B05BC7 /* Products */,
+				60515CAF76809AA1A08F8A0D /* Pods */,
+				69223E837C918C885123B22E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -58,7 +86,9 @@
 			children = (
 				8CC627B1282E7CC800B05BC7 /* AppDelegate.swift */,
 				8CC627B3282E7CC800B05BC7 /* SceneDelegate.swift */,
-				8CC627B5282E7CC800B05BC7 /* ViewController.swift */,
+				8CC627B5282E7CC800B05BC7 /* FirstViewController.swift */,
+				8CC627C7282EC53E00B05BC7 /* SecondViewController.swift */,
+				8CC627C5282EC4F300B05BC7 /* ColorProvider.swift */,
 				8CC627B7282E7CC800B05BC7 /* Main.storyboard */,
 				8CC627BA282E7CCA00B05BC7 /* Assets.xcassets */,
 				8CC627BC282E7CCA00B05BC7 /* LaunchScreen.storyboard */,
@@ -74,9 +104,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8CC627C2282E7CCA00B05BC7 /* Build configuration list for PBXNativeTarget "Swinject_Module" */;
 			buildPhases = (
+				731CCA14D5FC067FE0271B47 /* [CP] Check Pods Manifest.lock */,
 				8CC627AA282E7CC800B05BC7 /* Sources */,
 				8CC627AB282E7CC800B05BC7 /* Frameworks */,
 				8CC627AC282E7CC800B05BC7 /* Resources */,
+				97E8AF41DD230C3D4BD78F18 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -133,13 +165,57 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		731CCA14D5FC067FE0271B47 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Swinject_Module-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		97E8AF41DD230C3D4BD78F18 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swinject_Module/Pods-Swinject_Module-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Swinject_Module/Pods-Swinject_Module-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Swinject_Module/Pods-Swinject_Module-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8CC627AA282E7CC800B05BC7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8CC627B6282E7CC800B05BC7 /* ViewController.swift in Sources */,
+				8CC627C6282EC4F300B05BC7 /* ColorProvider.swift in Sources */,
+				8CC627B6282E7CC800B05BC7 /* FirstViewController.swift in Sources */,
 				8CC627B2282E7CC800B05BC7 /* AppDelegate.swift in Sources */,
+				8CC627C8282EC53E00B05BC7 /* SecondViewController.swift in Sources */,
 				8CC627B4282E7CC800B05BC7 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -282,6 +358,7 @@
 		};
 		8CC627C3282E7CCA00B05BC7 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 28FE4E715EB9B10AAE53BFAB /* Pods-Swinject_Module.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -310,6 +387,7 @@
 		};
 		8CC627C4282E7CCA00B05BC7 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = A11915D2291738D27AE7E3E9 /* Pods-Swinject_Module.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
